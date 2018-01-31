@@ -1,19 +1,15 @@
 {
-  "GetOutletInvitationStatus": [
-    {
-      "id": "GetOutletInvitationStatus",
-      "GetOutletInvitationStatus": [
-        {
-          "CustomerDetails": [
-            {
-              "Customer_EmailID": "johndoe@example.org"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "GetOutletInvitationStatus": {
+    "Status": "Success",
+    "Description": "Customer Invitation Details follows",
+    "Customer": [
+      {
+        "Customer_EmailID": "johndoe@example.org"
+      }
+    ]
+  },
+  "AddtoWaitlist": {
+    "Status": "Success",
+    "Description": "Add Customer to Waitlist"
   }
 }
